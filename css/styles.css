@@ -1,0 +1,710 @@
+
+.body{
+  background: #F5F5F5;
+}
+
+
+.navbar{
+  background: #FFFFFF;
+  padding: 40px;
+}
+
+nav{
+  display: flex;
+
+}
+
+.nav-item{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navbar-brand{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #112B3C;
+
+
+}
+
+.nav-word{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #808080;
+text-decoration: none;
+
+}
+
+.active{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #112B3C;
+border-bottom: 2px solid #E61C5D;
+border-width: thick;
+
+
+
+}
+
+.register{
+  padding: 18px 24px;
+
+width: 122px;
+height: 60px;
+background: #E61C5D;
+border-radius: 45px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+li{
+  margin: 0 10px;
+}
+/* FIRST CONTAINER */
+.first-heading{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 120%;
+color: #112B3C;
+text-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+}
+
+.life{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #808080;
+}
+
+.form{
+  background: #FFFFFF;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+border-radius: 58px;
+width: 469px;
+height: 80px;
+}
+
+.location{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+color: #808080;
+
+}
+
+.date{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+color: #808080;
+}
+
+.allentown{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color: #112B3C;
+
+}
+
+.august{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color: #112B3C;
+
+}
+
+.unsplash{
+  height: 600px;
+  width: 370px;
+  border-radius: 160px;;
+}
+
+.small{
+  width: 200px;
+  height: 330.04px;
+  border: 8px solid #FFFFFF;
+  border-radius: 160px;
+}
+
+.L1{
+  margin-top: 100px;
+}
+
+.first-container{
+  margin: 30px 60px;
+}
+
+
+
+/* FLEXBOX FIRST CONTAINER */
+.first-container{
+  display: flex;
+}
+
+.small{
+  position: absolute;
+  top: 275px;
+  right: 2px;
+
+}
+
+/* MEDIA QUERY FOR FIRST CONTAINER */
+
+@media (max-width: 1200px) {
+  .first-container{
+    flex-direction: column;
+  }
+
+  .small{
+    position: absolute;
+    top: 650px;
+    left: 350px;
+  }
+
+  .R1{
+    margin: 30px 20px;
+  }
+
+}
+
+
+/* SECOND CONTAINER */
+.back{
+  width: 350px;
+height: 600px;
+}
+
+.front{
+  height: 450px;
+  width: 300px;
+  position: absolute;
+  left: 280px;
+top: 950px;
+}
+
+.about-us{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #E61C5D;
+}
+
+.tour-plan-heading{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #112B3C;
+}
+
+.understand{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: #808080;
+}
+
+.about-number{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #E61C5D;
+}
+
+.about-about{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #808080;
+}
+
+.R2{
+  margin: 60px;
+}
+
+.L2{
+  margin: 60px 100px;
+}
+
+/* FLEXBOX OF SECOND CONTAINER */
+.second-container{
+  display: flex;
+
+}
+
+.about-parent{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MEDIA QUERY FOR THE SECOND CONTAINER */
+@media (max-width: 1200px) {
+  .second-container{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .front{
+    position: absolute;
+    top: 1400px;
+    left: 300px;
+  }
+}
+
+/* THIRD CONTAINER */
+.tour-packages{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #E61C5D;
+}
+
+.amazing-places{
+  width: 591px;
+height: 116px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #112B3C;
+}
+
+.col-heading{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+
+line-height: 132%;
+color: #112B3C;
+}
+
+.col-image{
+  height: 200px;
+  width: 100%;
+}
+
+.country{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 17px;
+
+color: #112B3C;
+}
+
+.rate{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #FFBD39;
+}
+
+.price{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 132%;
+color: #E61C5D;
+}
+
+.days{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 132%;
+color: #808080;
+
+}
+
+/* FLEXBOX OF THIRD CONTAINER */
+.row{
+  margin: 0;
+  display: flex;
+}
+
+.col{
+  background: white;
+  margin: 20px;
+  height: 400px;
+  width: 150px;
+}
+
+/* MEDIA QUERY FOR THE THIRD CONTAINER */
+@media (max-width: 750px) {
+  .row{
+    flex-direction: column;
+  }
+
+  .col{
+    text-align: center;
+  }
+
+  .col-image{
+    height: 200px;
+    width: 50%;
+  }
+}
+
+
+/* TESTIMONIAL */
+
+.testimonial{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #E61C5D;
+
+}
+
+.satisfied{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* text-align: center; */
+color: #112B3C;
+}
+
+.testifier-name{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+/* text-align: center; */
+color: #112B3C;
+
+}
+
+.testifier-image{
+  text-align: center;
+}
+
+.testifier-job{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* text-align: center; */
+color: #112B3C;
+}
+
+.testifier-rate{
+  /* text-align: center; */
+}
+
+.testifier-testimony{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 133%;
+/* text-align: center; */
+color: #112B3C;
+
+}
+
+.testifier{
+  border: 1px solid #FAFAFA;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+border-radius: 16px;
+}
+
+#testimonial{
+  text-align: center;
+}
+
+/* FLEXBOX FOR TESTIMONIAL */
+.testimony{
+  display: flex;
+  justify-content: space-around;
+}
+
+.testifier{
+  text-align: center;
+  background: white;
+  margin: 30px;
+  width: 302px;
+height: 350px;
+
+}
+
+/* MEDIA QUERY FOR TESTIMONIAL */
+
+@media (max-width: 750px) {
+  .testimony{
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+
+/* LAST CONTAINER */
+
+.we{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #112B3C;
+
+
+}
+
+.do{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #808080;
+
+}
+
+.cta{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+width: 156px;
+height: 60px;
+
+background: #E61C5D;
+margin: auto;
+text-decoration: none;
+
+
+border: 2px solid #E61C5D;
+border-radius: 45px;
+padding: 18px 24px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.c-tour{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 132%;
+color: #112B3C;
+
+}
+
+.price2{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 132%;
+
+color: #E61C5D;
+
+}
+
+.day2{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 132%;
+color: #808080;
+
+}
+
+.tour{
+  background: #FFFFFF;
+border-radius: 16px;
+padding: 5px;
+
+}
+
+/* FLEXBOX OF THE LAST CONTAINER */
+.tour-country{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.tour2{
+  align-self: flex-end;
+}
+
+.tour3{
+  align-self: flex-end;
+}
+
+/* MEDIA QUERY FOR LAST CONTAINER */
+
+@media (max-width: 1000px) {
+  .tour-country{
+    flex-wrap: wrap;
+  }
+
+/*
+/* FOOTER */
+/* .tripy{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #112B3C;
+
+} */
+
+.footer-p{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #112B3C;
+
+
+}
+
+i{
+  color: #E61C5D;
+}
+
+.footer-head{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+text-align: left;
+
+color: #112B3C;
+
+
+}
+
+.footer-div{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+color: #112B3C;
+
+
+
+}
+
+
+.footer-list{
+  list-style: none;
+}
+
+.email{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #808080;
+}
+
+.A{
+  color: #112B3C;
+  text-decoration: none;
+
+}
+
+#footer{
+  background: white;
+  margin: 50px 0;
+  padding: 50px;
+}
+
+/* FLEXBOX FOR FOOTER */
+
+.footer-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
